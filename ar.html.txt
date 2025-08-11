@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>AR表示サンプル</title>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #f0f0f0;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    a.ar-button {
+      display: inline-block;
+      padding: 20px 40px;
+      background: #007aff;
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      user-select: none;
+    }
+    a.ar-button:active {
+      background: #0051a8;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://saunasekouweb-commits.github.io/AR-/sauna_test.usdz" class="ar-button" rel="ar" target="_blank">
+    スマホでAR表示する
+  </a>
+</body>
+</html>
